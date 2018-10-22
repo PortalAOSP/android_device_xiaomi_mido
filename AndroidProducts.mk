@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xenonhd_mido.mk
+    $(LOCAL_DIR)/paosp_mido.mk
