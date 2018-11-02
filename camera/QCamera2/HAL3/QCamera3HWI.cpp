@@ -8193,7 +8193,7 @@ camera_metadata_t* QCamera3HardwareInterface::translateCapabilityToMetadata(int 
         optStabMode = ANDROID_LENS_OPTICAL_STABILIZATION_MODE_ON;
         cacMode = ANDROID_COLOR_CORRECTION_ABERRATION_MODE_FAST;
         edge_mode = ANDROID_EDGE_MODE_OFF;
-        noise_red_mode = ANDROID_NOISE_REDUCTION_MODE_FAST;
+        noise_red_mode = ANDROID_NOISE_REDUCTION_MODE_OFF;
         tonemap_mode = ANDROID_TONEMAP_MODE_FAST;
         break;
       case CAMERA3_TEMPLATE_STILL_CAPTURE:
@@ -8201,7 +8201,7 @@ camera_metadata_t* QCamera3HardwareInterface::translateCapabilityToMetadata(int 
         focusMode = ANDROID_CONTROL_AF_MODE_CONTINUOUS_PICTURE;
         optStabMode = ANDROID_LENS_OPTICAL_STABILIZATION_MODE_ON;
         edge_mode = ANDROID_EDGE_MODE_OFF;
-        noise_red_mode = ANDROID_NOISE_REDUCTION_MODE_HIGH_QUALITY;
+        noise_red_mode = ANDROID_NOISE_REDUCTION_MODE_OFF;
         tonemap_mode = ANDROID_TONEMAP_MODE_HIGH_QUALITY;
         cacMode = ANDROID_COLOR_CORRECTION_ABERRATION_MODE_OFF;
         // Order of priority for default CAC is HIGH Quality -> FAST -> OFF
